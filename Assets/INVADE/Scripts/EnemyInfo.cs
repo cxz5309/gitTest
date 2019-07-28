@@ -27,6 +27,7 @@ public class EnemyInfo : MonoBehaviour
     }
     private void Start()
     {
+        Debug.Log(gameObject);
         damage = 10;
         Move(-20f, speed);
     }
